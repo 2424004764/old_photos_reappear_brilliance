@@ -7,7 +7,7 @@
 使用方式：
 
   1、下载
-    百度网盘：因为容器有7.64GB，所以转存到了百度网盘，下载地址
+    i、百度网盘：因为容器有7.64GB，所以转存到了百度网盘，下载地址
       链接：https://pan.baidu.com/s/1z8DD8M1M17oWUGEcfgKbOA 
       提取码：5it0 
     
@@ -16,6 +16,13 @@
       这里导入成功后生成的image id会不一样
 ![](http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201217180425.png)
   
-  2、阿里云容器仓库
+    ii、阿里云容器仓库
+    registry.cn-shenzhen.aliyuncs.com/docker_study_nanxun/face_fix:1.0
     
-    
+  2、使用
+    i、新建容器
+      docker run -it --name face_fix [镜像id] bash
+      这里可以做一下目录映射的处理，这样，处理好的照片就可以同步到主机了
+      
+    ii、老照片修复
+       python3.8 run.py --input_folder /usr/yifang/photo_restoration/test_images/old --output_folder /usr/yifang/photo_restoration/output --GPU -1
