@@ -14,7 +14,7 @@
     下载的tar格式的镜像使用方式：
       docker import face_fix.tar face_fix:1.0
       这里导入成功后生成的image id会不一样
-      ![](http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201217180425.png)
+![](http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201217180425.png)
   
   2、阿里云容器仓库
     
