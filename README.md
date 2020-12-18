@@ -26,3 +26,14 @@
       
     ii、老照片修复
        python3.8 run.py --input_folder /usr/yifang/photo_restoration/test_images/old --output_folder /usr/yifang/photo_restoration/output --GPU -1
+
+
+官方效果：   
+  ![](http://cdn.fologde.com/face_pipeline.jpg)
+  ![](http://cdn.fologde.com/face_fix/face.png)
+  ![](http://cdn.fologde.com/face_fix/0001.jpg)
+  ![](http://cdn.fologde.com/face_fix/pipeline.PNG)
+  ![](http://cdn.fologde.com/face_fix/global.png)
+  ![](http://cdn.fologde.com/face_fix/scratch_detection.png)
+  
+  
