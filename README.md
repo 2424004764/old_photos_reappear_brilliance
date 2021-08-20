@@ -16,7 +16,7 @@
       这里导入成功后生成的image id会不一样
 ![](http://cdn.fologde.com/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20201217180425.png)
   
-    ii、阿里云容器仓库
+    ii、阿里云容器仓库   大小：4.7G
     registry.cn-shenzhen.aliyuncs.com/docker_study_nanxun/face_fix:1.0
     
   2、使用   
