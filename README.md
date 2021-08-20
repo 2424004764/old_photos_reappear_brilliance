@@ -27,7 +27,7 @@
    ii、老照片修复   
       进入容器  docker exec -it [容器id] bash   
       切换到目录   
-        cd /usr/yifang/photo_restoration
+        cd /usr/yifang/photo_restoration  
       python3.8 run.py --input_folder /usr/yifang/photo_restoration/test_images/old --output_folder /usr/yifang/photo_restoration/output --GPU -1
 
 
