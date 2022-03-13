@@ -1,3 +1,6 @@
+官方已有自己的docker镜像了：https://replicate.com/microsoft/bringing-old-photos-back-to-life
+
+
 # old_photos_reappear_brilliance  在线服务正在开始中。。
 让你的老照片重现光彩-基于docker的容器，容器我采用的是debian，语言是python
 
